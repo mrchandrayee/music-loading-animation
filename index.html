@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffb45c" />
+  <title>Music Loading Animation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <header class="heading">
+      <span class="eyebrow">CSS ANIMATION · MINI PROJECT</span>
+      <h1>Music Loading Animation</h1>
+      <p>A colorful equalizer loader built with pure HTML and CSS.</p>
+    </header>
+
+    <section class="demo" aria-label="Animated music equalizer">
+      <div class="player-top">
+        <span class="live-dot"></span>
+        <span id="status">NOW PLAYING</span>
+        <span class="track-time">00:08</span>
+      </div>
+      <div class="equalizer" id="equalizer" role="img" aria-label="Animated colorful sound bars">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </div>
+      <div class="player-bottom">
+        <div><strong>Sound waves</strong><small>Visualizing audio activity</small></div>
+        <button id="toggle" type="button" aria-pressed="false">Pause animation</button>
+      </div>
+    </section>
+    <footer>Made with <b>HTML</b> + <b>CSS</b> <span>·</span> No JavaScript libraries</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
